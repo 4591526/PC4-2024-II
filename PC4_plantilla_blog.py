@@ -60,7 +60,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("ellie.png", caption='Aquí puedes escribir una etiqueta debajo de la imagen', width=300)
+col1.image("notas_campo.jpg", caption='cuaderno de campo', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -73,7 +73,7 @@ col1.image("ellie.png", caption='Aquí puedes escribir una etiqueta debajo de la
 # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
 texto = """
-Aquí escribe una presentación creativa sobre ti.
+Soy Luisa Gomez, soy egresada de Lingüística de la PUCP. Actualmente, estoy en mi cuarto ciclo de la maestría en Lingüísitica. Mis intereses están ligados a la lingüísitca computacional, lamentablemente esta área no es una especialidad en Latinoamérica. Por tal motivo, luego de terminar la maestría mi objetivo es postular a un doctorado en esa especialidad. Mi tesis de maestría está orientado en generar un modelo que clasifique lenguas por familias lingüísticas en base a rasgos registrados en una base de datos abierta llamada Grambank. Asimismo, con ese clasificador buscsré responder qué sucede con las lenguas aisladas que en la literatura se menciona que son peculiares al no compartir rasgos con lenguas que sí conforman una familia lingüística. Este semestre me han visto en sus clases de teoría debido a que estuve realizando trabajo de campo para el curso de Etnografía para Lingüístas y estoy analizando el uso del lenguaje en las prácticas pedagógicas de los docentes del curso de Pnesamiento Computacional.
 """
 
 # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
