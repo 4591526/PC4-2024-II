@@ -109,7 +109,7 @@ st.markdown("<h2 style='text-align: center;'>Un mensaje para ustedes 💻</h2>",
 
 # Agregar un  texto para la respuesta
 texto_2 = """
-Ha sido muy grato ser su jefa de prácticas este semestre. Fueron un grupo muy diverso y al igual que yo dicté las clases también aprendí de ustedes resolviendo sus dudas e indagando sobre sus intereses. El mejor consejo que les puedo brindar es siempre no quedarse con las dudas y organizar sus tiempos para evitar procrastinar. Si no pueden cumplir los plazos pues escriban un correo y si tienen dudas o faltaron pueden escribir un correo y pedir asesorías. Estoy segura que sus profesores con gusto podrán ayudarlos. Finalmente, recuerden que siempre van a depender de ustedes mismos para ser resilentes ante cualquier circunstancia adversa.
+Ha sido muy grato ser su jefa de prácticas este semestre. Fueron un grupo muy diverso y al igual que yo dicté las clases también aprendí de ustedes resolviendo sus dudas e indagando sobre sus intereses. El mejor consejo que les puedo brindar es siempre no quedarse con las dudas y organizar sus tiempos para evitar procrastinar. Si no pueden cumplir los plazos pues escriban un correo y si tienen dudas o faltaron pueden escribir un correo y pedir asesorías. Estoy segura que sus profesores con gusto podrán ayudarlos. Finalmente, recuerden que siempre van a depender de ustedes mismos para ser resilentes ante cualquier circunstancia académica adversa.
 """
 
 # Mostramos el texto
