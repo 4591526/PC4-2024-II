@@ -73,7 +73,7 @@ col1.image("notas_campo.jpg", caption='cuaderno de campo', width=300)
 # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
 texto = """
-Soy Luisa Gomez, soy egresada de Lingüística de la PUCP. Actualmente, estoy en mi cuarto ciclo de la maestría en Lingüísitica. Mis intereses están ligados a la lingüísitca computacional, lamentablemente esta área no es una especialidad en Latinoamérica. Por tal motivo, luego de terminar la maestría mi objetivo es postular a un doctorado en esa especialidad. Mi tesis de maestría está orientado en generar un modelo que clasifique lenguas por familias lingüísticas en base a rasgos registrados en una base de datos abierta llamada Grambank. Asimismo, con ese clasificador buscsré responder qué sucede con las lenguas aisladas que en la literatura se menciona que son peculiares al no compartir rasgos con lenguas que sí conforman una familia lingüística. Este semestre me han visto en sus clases de teoría debido a que estuve realizando trabajo de campo para el curso de Etnografía para Lingüístas y estoy analizando el uso del lenguaje en las prácticas pedagógicas de los docentes del curso de Pnesamiento Computacional.
+Soy Luisa Gomez, soy egresada de Lingüística de la PUCP. Actualmente, estoy en mi cuarto ciclo de la maestría en Lingüística. Mis intereses están ligados a la lingüística computacional, lamentablemente esta área no es una especialidad en Latinoamérica. Por tal motivo, luego de terminar la maestría mi objetivo es postular a un doctorado en esa especialidad. Mi tesis de maestría está orientado en generar un modelo que clasifique lenguas por familias lingüísticas en base a rasgos registrados en una base de datos abierta llamada Grambank. Asimismo, con ese clasificador buscsré responder qué sucede con las lenguas aisladas que en la literatura se menciona que son peculiares al no compartir rasgos con lenguas que sí conforman una familia lingüística. Este semestre me han visto en sus clases de teoría debido a que estuve realizando trabajo de campo para el curso de Etnografía para Lingüístas y estoy analizando el uso del lenguaje en las prácticas pedagógicas de los docentes del curso de Pnesamiento Computacional.
 """
 
 # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -96,7 +96,7 @@ col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>
 # ¿Qué te gustaría hacer con la programación en el futuro? 
 
 # Agregamos un subtítulo
-st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Un mensaje para ustedes 💻</h2>", unsafe_allow_html=True)
 
 # <h2 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h2>: Esta es una cadena de código HTML.
 # La etiqueta <h2> se utiliza para el encabezado secundario de una página web.
@@ -109,7 +109,7 @@ st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a progra
 
 # Agregar un  texto para la respuesta
 texto_2 = """
-Aquí escribe tu experiencia aprendiendo a programar. 
+Ha sido muy grato ser su jefa de prácticas este semestre. Fueron un grupo muy diverso y al igual que yo dicté las clases también aprendí de ustedes resolviendo sus dudas e indagando sobre sus intereses. El mejor consejo que les puedo brindar es siempre no quedarse con las dudas y organizar sus tiempos para evitar procrastinar. Si no pueden cumplir los plazos pues escriban un correo y si tienen dudas o faltaron pueden escribir un correo y pedir asesorías. Estoy segura que sus profesores con gusto podrán ayudarlos. Finalmente, recuerden que siempre van a depender de ustedes mismos para ser resilentes ante cualquier circunstancia adversa.
 """
 
 # Mostramos el texto
