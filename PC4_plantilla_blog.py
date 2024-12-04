@@ -151,46 +151,27 @@ st.markdown(enlace, unsafe_allow_html=True)
 
 
 # Agregamos un subtítulo en la barra lateral
-sidebar.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tus gráficos</h1>", unsafe_allow_html=True)
+sidebar.markdown("<h1 style='text-align: center;'>Repositorio del curso, páginas de las librerías y programas importantes</h1>", unsafe_allow_html=True)
 
-# <h1 style='text-align: center;'>Los análisis de Ellie</h1>: Esta es una cadena de código HTML.
-# La etiqueta <h1> se utiliza para el encabezado principal de una página web.
-# El texto está centrado (text-align: center;).
-# El texto dentro de las etiquetas <h1> ("Los análisis de Ellie") es el contenido del encabezado.
 
-# Creamos una lista de gráficos
-graficos = ['Lenguas aisladas', 'Familias lingüísticas', 'Mapa de las lenguas sudamericanas']
+repositorio = f'<a href="https://github.com/4591526/1CCO19-2024/tree/main/2024-I" target="_blank"><button>Repositorio del curso</button></a>'
+libreria1 = f'<a href="https://matplotlib.org/stable/gallery/index.html" target="_blank"><button>Matplotlib</button></a>'
+libreria2 = f'<a href="https://geopandas.org/en/stable/gallery/index.html" target="_blank"><button>Geopandas</button></a>'
+libreria3 = f'<a href="https://python-visualization.github.io/folium/latest/getting_started.html" target="_blank"><button>Folium</button></a>'
+libreria4 = f'<a href="https://seaborn.pydata.org/examples/index.html" target="_blank"><button>Seaborn</button></a>'
+libreria5 = f'<a href="https://plotly.com/python/plotly-express/" target="_blank"><button>Plotly Express</button></a>'
+libreria6 = f'<a href="https://streamlit.io" target="_blank"><button>Streamlit</button></a>'
+libreria2 = f'<a href="https://geopandas.org/en/stable/gallery/index.html" target="_blank"><button>Geopandas</button></a>'
+programa = f'<a href="https://code.visualstudio.com" target="_blank"><button>Visual Studio Code</button></a>'
 
-# Creamos un cuadro de selección en la barra lateral
-grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
-# El cuadro de selección se crea con la función selectbox.
-# El primer argumento es el texto que se muestra en el cuadro de selección.
-# El segundo argumento es una lista de opciones que se pueden seleccionar.
-# En este caso, las opciones son los elementos de la lista graficos.
-# La opción seleccionada se asigna a la variable grafico_seleccionado.
-# La variable grafico_seleccionado se utiliza para mostrar el gráfico correspondiente en la aplicación web.
-# La función selectbox se utiliza para crear un cuadro de selección en la barra lateral.
+with st.sidebar:
+    st.markdown(repositorio, unsafe_allow_html=True)
+    st.markdown(libreria1,  unsafe_allow_html=True)
+    st.markdown(libreria2,  unsafe_allow_html=True)
+    st.markdown(libreria3,  unsafe_allow_html=True)
+    st.markdown(libreria4,  unsafe_allow_html=True)
+    st.markdown(libreria5,  unsafe_allow_html=True)
+    st.markdown(libreria6,  unsafe_allow_html=True)
+    st.markdown(libreria2,  unsafe_allow_html=True)
+    st.markdown(programa,  unsafe_allow_html=True)
 
-# Mostramos el gráfico seleccionado
-if grafico_seleccionado == 'Lenguas aisladas':
-    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-    sidebar.image("aisladas_base_datos.png", caption='Lenguas aisladas', width=500)
-    pass
-elif grafico_seleccionado == 'Familias lingüísticas':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 2.</div>", unsafe_allow_html=True)
-    sidebar.image("lengua_familia_GB.png", caption='Familias lingüísticas', width=500)
-    pass
-elif grafico_seleccionado == 'Mapa de las lenguas sudamericanas':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 3.</div>", unsafe_allow_html=True)
-    sidebar.image("mapa_familias_aisladas_S.jpg", caption='Mapa de las lenguas sudamericanas', width=500)
-    pass
-
-# if grafico_seleccionado == 'Gráfico de Macroareas': Esta línea verifica si la opción seleccionada es 'Gráfico de Macroareas'.
-# Si es así, se ejecuta el código dentro del bloque if.
-# En este caso, se muestra un texto y una imagen correspondientes al gráfico de Macroareas.
-# El texto y la imagen se muestran en la barra lateral.
-# La función markdown se utiliza para mostrar el texto en la barra lateral.
-# La función image se utiliza para mostrar la imagen en la barra lateral.
-# El argumento caption se utiliza para proporcionar un pie de foto a la imagen.
-# El argumento width se utiliza para especificar el ancho de la imagen.
-# La palabra clave pass se utiliza para indicar que no se debe hacer nada en caso de que la opción seleccionada no sea 'Gráfico de Macroareas'.
