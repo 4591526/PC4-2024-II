@@ -137,17 +137,72 @@ st.markdown("<h2 style='text-align: center;'>A continuación una pequeña desped
 st.video("pc4-video.mp4")
 # st.video("ppc-2024-1.mp4"): Esta línea está agregando un video a la aplicación web.
 
+# Agregamos un subtítulo
+st.subheader("🔎 Buscador de blog PC4")
 
-# Agregamos un enlace a la página web donde está el video.
-# enlace = f'<a href="https://drive.google.com/file/d/1CbCTv4EFV5G5XH7rOpIcPmjKr23Muojs/view?usp=drive_link" target="_blank"><button>Nombre creativo para el botón</button></a>'
-# st.markdown(enlace, unsafe_allow_html=True)
-# f'<a href="URL" target="_blank"><button>Nombre</button></a>':
-# La etiqueta <a> se utiliza para crear un enlace en HTML.
-# El atributo href se utiliza para especificar la URL de destino del enlace.
-# El atributo target="_blank" se utiliza para abrir el enlace en una nueva pestaña del navegador.
-# La etiqueta <button> se utiliza para crear un botón en HTML.
-# El texto dentro de las etiquetas <button> ("Nombre creativo para el botón") es el contenido del botón.
-# La variable enlace contiene la cadena de código HTML para el enlace y el botón.
+# <h2 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h2>: Esta es una cadena de código HTML.
+# La etiqueta <h2> se utiliza para el encabezado secundario de una página web.
+# El texto está centrado (text-align: center;).
+# El texto dentro de las etiquetas <h2> ("Mi experiencia aprendiendo a programar 💻") es el contenido del encabezado
+# unsafe_allow_html=True: Este es un argumento opcional en la función markdown.
+# Por defecto, streamlit no permite HTML en el texto de Markdown por razones de seguridad.
+# Sin embargo, establecer unsafe_allow_html en True permite el uso de HTML.
+# Puedes agregar emojis en el texto de Markdown utilizando códigos de emoji.
+
+
+codigo = st.text_input("Escribe tu código")
+if codigo:
+    if codigo == '20172352':
+        st.markdown("<a href='https://pc4-yasmin.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20186119':
+        st.markdown("<a href='https://no-blog.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20193461':
+        st.markdown("<a href='https://miexperienciaaprendiendopython.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20196410':
+        st.markdown("<a href='https://experiencia-programando2024.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20200404':
+        st.markdown("<a href='https://pc4-tino.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20210758':
+        st.markdown("<a href='https://gatherstep.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20211379':
+        st.markdown("<a href='https://blog-chiroque.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20211487':
+        st.markdown("<a href='https://pc04yadhieligonzalespalma.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20211490':
+        st.markdown("<a href='https://dramaversion.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20211496':
+        st.markdown("<a href='https://pc4cespedes-eduardo-mb6khn4ykxfhljud4zqn84.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20216387':
+        st.markdown("<a href='https://pc4abi.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20216479':
+        st.markdown("<a href='https://pc4-danis.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20216565':
+        st.markdown("<a href='https://pc4-sandradelcarpiosilvera-tc2dphaka2xzgm9tsphzqd.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20216608':
+        st.markdown("<a href='https://pc4angelm.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20220526':
+        st.markdown("<a href='https://pc4siguas.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20221056':
+        st.markdown("<a href='https://pensamiento.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20221145':
+        st.markdown("<a href='https://pc4-elena.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20221324':
+        st.markdown("<a href='https://kasenliuli.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20221602':
+        st.markdown("<a href='https://mi-blog-pc4.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20221972':
+        st.markdown("<a href='https://magusyblog2020.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20225131':
+        st.markdown("<a href='https://crisblog.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20225966':
+        st.markdown("<a href='https://pc4-rodrigoalegree.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20226680':
+        st.markdown("<a href='https://biografia-pablo-sandoval.streamlit.app/' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    elif codigo == '20230464':
+        st.markdown("<a href='https://pc4--blog-final-2024-02.streamlit.app' target='_blank'>Haz clic aquí para visitar el blog</a>", unsafe_allow_html=True)
+    else:
+        st.write("Código incorrecto")
+
 
 
 # Agregamos un subtítulo en la barra lateral
