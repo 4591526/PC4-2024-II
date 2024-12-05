@@ -139,8 +139,8 @@ st.video("pc4-video.mp4")
 
 
 # Agregamos un enlace a la página web donde está el video.
-enlace = f'<a href="https://drive.google.com/file/d/1CbCTv4EFV5G5XH7rOpIcPmjKr23Muojs/view?usp=drive_link" target="_blank"><button>Nombre creativo para el botón</button></a>'
-st.markdown(enlace, unsafe_allow_html=True)
+# enlace = f'<a href="https://drive.google.com/file/d/1CbCTv4EFV5G5XH7rOpIcPmjKr23Muojs/view?usp=drive_link" target="_blank"><button>Nombre creativo para el botón</button></a>'
+# st.markdown(enlace, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
 # El atributo href se utiliza para especificar la URL de destino del enlace.
