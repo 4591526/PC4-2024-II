@@ -216,7 +216,6 @@ libreria3 = f'<a href="https://python-visualization.github.io/folium/latest/gett
 libreria4 = f'<a href="https://seaborn.pydata.org/examples/index.html" target="_blank"><button>Seaborn</button></a>'
 libreria5 = f'<a href="https://plotly.com/python/plotly-express/" target="_blank"><button>Plotly Express</button></a>'
 libreria6 = f'<a href="https://streamlit.io" target="_blank"><button>Streamlit</button></a>'
-libreria2 = f'<a href="https://geopandas.org/en/stable/gallery/index.html" target="_blank"><button>Geopandas</button></a>'
 programa = f'<a href="https://code.visualstudio.com" target="_blank"><button>Visual Studio Code</button></a>'
 
 with st.sidebar:
@@ -227,6 +226,5 @@ with st.sidebar:
     st.markdown(libreria4,  unsafe_allow_html=True)
     st.markdown(libreria5,  unsafe_allow_html=True)
     st.markdown(libreria6,  unsafe_allow_html=True)
-    st.markdown(libreria2,  unsafe_allow_html=True)
     st.markdown(programa,  unsafe_allow_html=True)
 
